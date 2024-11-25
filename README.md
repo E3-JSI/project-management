@@ -14,24 +14,24 @@ graph TD
 
 ## Assets
 
-| Abb. | Asset Name | Description | Project(s) |
+| Abb. | Asset Name | Project(s) | Responsible |
 | --- | --- | --- | --- |
-| AD     | Anomaly Detection | | Plooto |
-| APy    | Anonipy | | PREPARE |
-| TSFM   | Time Series Foundation Model | | Plooto |
-| LLM-OG | LLM-powerd Ontology Generation | | HumAIne |
-| MedNER | Medical Named Entity Recognition | | PREPARE, HumAIne |
-| RAG-KG | RAG for KG | | HumAIne |
-| SS     | StreamStory | | enrichMyData |
+| AD     | Anomaly Detection | Plooto | Klemen |
+| APy    | Anonipy | PREPARE | Erik |
+| TSFM   | Time Series Foundation Model | Plooto | Rok K. |
+| LLM-OG | LLM-powerd Ontology Generation | HumAIne | Jože, Klemen |
+| MedNER | Medical Named Entity Recognition | PREPARE, HumAIne | Erik |
+| RAG-KG | RAG for KG | HumAIne | Domen |
+| SS     | StreamStory | enrichMyData | Jan |
 
 
 
 
 ## Projects
 
-| Project Name | Description | Use Cases | Technology |
-| --- | --- | --- | --- |
-| Plooto | | Manufacturing, Industry 4.0 | Classical / TS ML |
+| Project Name | Use Cases | Technology |
+| --- | --- | --- |
+| Plooto | Manufacturing, Industry 4.0 | Classical / TS ML |
 | enrichMyData | | AI |
-| HumAIne | | Medical, Finance, Energy, Governance | Active Learning, NLP |
-| PREPARE | | Medical |  |
+| HumAIne | Medical, Finance, Energy, Governance | Active Learning, NLP |
+| PREPARE | Medical |  |
