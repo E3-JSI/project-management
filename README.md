@@ -7,9 +7,49 @@
 ## Map of Assets/Projects
 
 ```mermaid
-graph TD
-    A[Internal] --> B[Proposals]
-    A --> C[Dev]
+graph LR
+    subgraph Projects
+        Plooto
+        enrichMyData
+        HumAIne
+        PREPARE
+        TWON
+        AI4GOV
+    end
+
+    subgraph Assets
+        AD
+        APy
+        TSFM
+        LLM-OG
+        MedNER
+        RAG-KG
+        SS
+        DIP-RD
+        OSN
+        SIM
+        FNG
+        NEG
+    end
+
+    Plooto --> AD
+    PREPARE --> APy
+    HumAIne --> APy
+    Plooto --> TSFM
+    HumAIne --> LLM-OG
+    PREPARE --> MedNER
+    HumAIne --> MedNER
+    enrichMyData --> SS
+    Plooto --> SS
+    HumAIne --> RAG-KG
+    AI4GOV --> DIP-RD
+    TWON --> OSN
+    TWON --> SIM
+    TWON --> FNG
+    TWON --> NEG
+    enrichMyData --> AD
+
+
 ```
 
 ## Assets
@@ -17,6 +57,7 @@ graph TD
 | Abb. | Asset Name | Project(s) | Responsible |
 | --- | --- | --- | --- |
 | AD     | Anomaly Detection | Plooto | Klemen |
+| AL     | Active Learning | HumAIne | Klemen, Rokxx |
 | APy    | Anonipy | PREPARE | Erik |
 | TSFM   | Time Series Foundation Model | Plooto | Rok K. |
 | LLM-OG | LLM-powerd Ontology Generation | HumAIne | Jože, Klemen |
