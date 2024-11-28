@@ -23,6 +23,11 @@ graph TD
 | MedNER | Medical Named Entity Recognition | PREPARE, HumAIne | Erik |
 | RAG-KG | RAG for KG | HumAIne | Domen |
 | SS     | StreamStory | enrichMyData | Jan |
+| DIP-RD | Data incompleteness pipeline | AI4Gov | Alenka |
+| OSN    | Online social network (OSN) | TWON | Abdul |
+| SIM    | OSN Simulation | TWON | Abdul |
+| FNG    | Fake news generator | TWON | Luka G., Abdul |
+| NEG    | Negotitaion plug-in agent | TWON | Martin Ž., Marko |
 
 
 
@@ -35,3 +40,5 @@ graph TD
 | enrichMyData | | AI |
 | HumAIne | Medical, Finance, Energy, Governance | Active Learning, NLP |
 | PREPARE | Medical |  |
+| TWON | Social Science | LLM
+| AI4Gov | Public sector, Medical | Bias detection, education |
